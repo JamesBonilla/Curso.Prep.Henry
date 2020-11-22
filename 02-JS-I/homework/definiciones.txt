@@ -1,0 +1,24 @@
+// Definiendo conceptos básicos de Javascript con mis propias palabras
+
+VARIABLES:
+Una variable en Javascript sirve para declarar y guardar un elemento que posteriormente se puede usar y/o 
+invocar, asi mismo se podrá editar. Las variables es Javascript don de tipado dinamico. 
+
+STRINGS:
+Un string es un hilo de caracteres, se debe escribir entre comillas para que el interprete de Javascript lo
+tome como un string.
+
+FUNCIONES:
+Una funcion sirve para hacer acciones con las variables: cambiarlas, calcularlas, etc. Se declara una funcion con
+la palabra function seguido de parentesis () donde van los argumentos y corchetes {} que es donde va el código a
+ejecutar. Los argumentos son variables dentro de la función que se pueden utilizar - invocar posteriormente. El 
+elemento *return* sirve para decirle a la funcion el resultado que debe arrojar, cuando el intérprete en una 
+función se topa con un return para la ejecución del código.
+
+DECLARACIONES IF:
+Una declaracion *if* sirve para formular condiciones para que sean verificadas y pueda arrojar la respuesta *true*
+o *false* segun corresponda.
+
+VALORES BOOLEANOS:
+Los booleanos sirven para verificar sentencias lógicas dando como respuesta los valores *true* o *false* 
+segun corresponda.

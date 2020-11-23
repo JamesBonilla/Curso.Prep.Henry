@@ -1,0 +1,41 @@
+// Estoy explicando conceptos de Javascript relacionados a Control de flujo, operadores de comparacion, bucles for,
+con mis propias palabras.
+
+FOR
+For es un bucle de repetición que sirve para declarar funcionalidades con poco codigo, ayuda a verificar acciones 
+a traves de tres argumentos o variables que se le da: 1ra. Declarar la variable que va ser evaluada. 2da. Definir
+la condicion para que el bucle se detenga, el bucle fucionará mientras su resultado sea *true*, se detiene cuando 
+sea *false*. 3ra. La variable tendrá un factor de crecimiento para cambiar el numero inicial automaticamente.
+
+&&
+El operador lógico *Y* / *AND* sirve para comparar y validar dos expesiones. Arroja resultado *true* si ambas 
+expresiones son verdaderas, si las expresiones evaluadas son ambas o al menos una falsas arrojara el resultado 
+*false*. Tabla de verdad para &&
+
+                   P          Q            P && Q
+                  true       true           true
+                  true       false          false
+                  false      true           false
+                  false      false          false
+
+
+||
+El operador lógico *O* / *OR* sirve para comparar y validar dos expresiones. Si una de las dos expresiones o las
+dos expresiones son verdaderas el resultado que arroja será *true*, si las dos expresiones son falsas el resultado
+que será *false*. Tabla de verdad para ||
+
+                   P          Q            P || Q
+                  true       true           true
+                  true       false          true
+                  false      true           true
+                  false      false          false
+
+
+!
+El operador lógico *NO* / *NOT* dará el resultado contrario a lo que un elemento u objeto tiene. Sirve sin
+necesidad de hacer una comparación. Tabla de verdad para !
+
+                    P         !P           
+                  true       false           
+                  false      true         
+                           

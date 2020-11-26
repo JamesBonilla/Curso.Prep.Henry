@@ -1,0 +1,13 @@
+// Estoy explicando que son *Arrays* con mis propias palabras.
+
+ARRAYS 
+Un *array* matriz o arreglo, es un contenedor para colecciones de todo tipo de datos, a diferencia de una variable
+que almacena un solo tipo de dato. Los datos para un array se declaran con un nombre de variable y entre 
+brackets '[]' los datos que pueden ser strings, numeros, booleanos. Para acceder a los elementos de una matriz se
+cuentan los elementos desde el cero (0) para el primer elemento y para los otros el numero consecuente. Para los
+*arrays* se pueden usar diferentes metodos como: .length  .pop  .push  .unshift  .shift
+  
+
+.JOIN
+El metodo .join une todos los elementos de una matriz y devuelve una cadena. Se puede separar la cadena de
+elementos declarando un string con espacio (' ') despues del .join

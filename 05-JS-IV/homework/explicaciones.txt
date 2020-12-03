@@ -1,0 +1,29 @@
+//Estoy explicando con mis propias palabras los siguientes conceptos de Javascript
+
+OBJETOS:
+Un objeto en Javascript es un contenedor de datos que contiene información sobre una cosa en particular. Los objetos
+se instancian usando llaves {} y sus propiedades se declaran con pares Clave :  Valor donde la clave es la propiedad
+o identificador del objeto y en el valor se guarda la información.
+
+PROPIEDADES:
+Las propiedades en un objeto son las diferentes caracteristicas que puede tener un objeto y se define con la
+palabra clave y su respectivo valor. Se define con los pares  Clave : Valor.
+
+MÉTODOS:
+Los métodos son valores de un objeto que se pueden establecer como funciones para ejecutar una acción.
+
+BUCLE FOR...IN
+El bucle for...in es usado en los objetos para iterar sobre cada par clave-valor, este bucle for...in se hace 
+necesario para los objetos dado que no tienen indices numéricos como los arrays por lo que el bucle for estándar no
+funcionará para los objetos.
+
+NOTACION DE PUNTOS VS NOTACION DE CORCHETES:
+Son las formas como se puede acceder a los valores en los objetos. Con la notación de punto se usa 
+
+          nombreDelObjeto.nombreDeLaClave;
+
+con la notación de corchetes es como llamar a un elemento en una matriz, aunque con corchetes debemos usar una 
+cadena o número, o una variable que apunte a una cadena o número. Se puede llamar a cada clave envolviéndola con 
+comillas:
+
+        nombreDelObjeto['nombreDeLaClave'];
